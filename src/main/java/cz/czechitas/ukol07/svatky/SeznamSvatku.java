@@ -5,6 +5,12 @@ import java.util.List;
 public class SeznamSvatku {
     private List<Svatek> svatky;
 
+    public SeznamSvatku() {
+    }
+
+    public SeznamSvatku(List<Svatek> svatky) {
+    }
+
     public List<Svatek> getSvatky() {
         return svatky;
     }
